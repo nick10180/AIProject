@@ -1,15 +1,9 @@
- #chatbottext{
-    color: blueviolet;
-    font-size: 12px;
-    padding: 5px;
-    margin: 10px;
-    margin-bottom: 20px;
-    width: auto;
-    height: 300px;
-    border: 5px solid black;
-  }
-  #usertext{
-    margin: 10px;
-    width: 800px;
-    height: 100px;
-  }
+
+#chatArea {
+  color: #4b0082;
+  font-size: 0.9rem;
+}
+
+#userText {
+  min-width: 0;
+}
