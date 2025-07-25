@@ -1,15 +1,8 @@
- #chatbottext{
-    color: blueviolet;
-    font-size: 12px;
-    padding: 5px;
-    margin: 10px;
-    margin-bottom: 20px;
-    width: auto;
-    height: 300px;
-    border: 5px solid black;
-  }
-  #usertext{
-    margin: 10px;
-    width: 800px;
-    height: 100px;
-  }
+#chatHistory {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+#usertext {
+  resize: vertical;
+}
