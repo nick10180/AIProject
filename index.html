@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OpenAI Integration Test</title>
+  <title>OpenAI Client</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
-<body>
-  <h1>Sandbox</h1>
-  <div id="chatbottext" class="chatbottextbox"></div>
-  <form id="chatform">
-    <textarea id="usertext" name="usertext" placeholder="Enter your message..." size="500"></textarea>
-    <input type="submit" id="submitbutton" value="Submit">
+<body class="container py-4">
+  <h1 class="mb-4">Chat Client</h1>
+  <div id="chatArea" class="border rounded p-3 mb-3 overflow-auto" style="height:300px"></div>
+  <form id="chatForm" class="d-flex">
+    <textarea id="userText" class="form-control me-2" placeholder="Enter your message..." rows="3"></textarea>
+    <button type="submit" id="submitButton" class="btn btn-primary">Send</button>
   </form>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
